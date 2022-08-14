@@ -1,0 +1,22 @@
+{
+  "name": "mb-conversation-webhook",
+  "version": "1.0.0",
+  "description": "Consume MessageBird Conversation Webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvin Julian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "knex": "^2.2.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "sqlite3": "^5.0.11"
+  }
+}
